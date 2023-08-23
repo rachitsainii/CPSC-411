@@ -1,0 +1,99 @@
+BLUF = Bottom Line Up Front
+
+Need to lean JS to get started.
+You'll have enough to get started in 2-4 hours.
+
+Also CSS
+
+React and React-Native Embed the CSS with JS.
+
+What is Native? (Value to User)
+1. UI consistency and look and feel.
+React-Native uses core components of iOS and gives the orginial feel to the users.
+
+2. Seamless Integration with Existing Apps
+Usually people make a "2.0" version of the app.
+
+3. Direct Access to Device Features.
+
+4. Platform-Specific Performance.
+Tight integration with native libraries.
+
+(Value to Business)
+
+1. Cross-Platform Development : Single codebase; compiles to actual native code.
+
+2. Fast Display of code changes : Live reload means quick feedback. No long builds for preview.
+
+3. Access to Native APIs. : You don't have to worry about writing connections.
+
+4. Large Ecosystem.
+
+5. Less dependence of Apple and Google.
+
+
+REASONS NOT to Use React Native in Mobile Dev.
+
+- You will never address the other platform : This is a business bet.
+- Large bundle size
+- Dependency on Third-Party libraries.
+- Long term maintenance and updates : Evolving libraries, compatibilty updates and changes in guidelines.
+- Performance on Low-End Devices : Native tech might offer slightly better performance on low-end devices.
+                                   Many vendors set the minimum API version high enough to block those devices.
+
+Some (Advanced) Reasons :
+
+Limited Native Access : Not all features might be fully supported or accessible.
+Performance for Graphics-Intensive Apps : 3D games. (Innoculus.)
+Slower Adoption of New features.
+Limited communited support for Niche Featurs.
+
+
+Not Valid Reasons to (according to Professor):
+- "We like having two teams, and don't want to change".
+- Learning curve, especially for Complex Apps. : Functioal programming is new to most people and requires a mental reset.
+- Custom UI/UX components are scary.
+- Long-Term maintenance and updates.
+- Debugging and diagnostics
+- Support Contracts.
+
+
+What is React Native? : It is a JS Framework for building mobile apps.
+                       Can use many Node.js modules.
+Supports Windows, Mac and Linux dev requirements.
+Supports iPhone (iOS) and Android Targets.
+Deeply interact to React, a web-front end Framework
+A mostly (functional programming) environment.
+
+What ISN't React-Native
+
+A way to avoid onerous requirements and procedures of the App Store.
+A way to shorten development of a single platform.
+A way to get the other environment for free.
+The same as React.
+Simpler
+A way to repurpose/recycle Frontend Developers.
+
+
+Areas/ Environments
+
+There are three connected areas:
+1. Development Environment (OS) - Windows, Mac
+2. Simulation Environment - Simulators, Virtual
+3. Device Environment - Actual Device.
+
+Build Environment - 
+Test Environment - 
+Deploy Environment - 
+
+
+Use Expo : It is a build , deploy, run and update env that does React Native stuff.
+When is React Native not exactly React Native ?
+    When it's Expo, it's not native.
+Two ways to develop and deploy React Native apps: react-native-cli and Expo.
+
+https://www.reactnative.dev/dev/docs/environment-setup
+
+HW1 - https://reactnative.dev/docs/tutorial
+Ideally do "Core Components" and "React Fundamentals" too.
+Send professor a link to the Expo artifact.
