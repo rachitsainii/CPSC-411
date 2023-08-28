@@ -1,0 +1,47 @@
+Meet me assignment. (Due Today)
+
+PR assignment.
+
+Functional Programming: Much more mathematically oriented.
+Hard to debug, but easy to test.
+For loop, modules -> Not functional 
+
+React/Native is largely based on FP.
+
+Immutability : 
+    Variables never change.
+    Can't change objects - x.lastname = "XXX"  (Modifies the object).
+    Instead replace the object - x = {...customer, lastname: "Fred"}
+Pure Functions : 
+    No concept of scope. 
+    (Global Variables cause dependencies and problems while testing the program.)
+First-Class & Higher-Order Functions : 
+    Value of a variable is the address of a function.
+
+Composition : 
+    Change the behaviour much easily. 
+
+JS is effectively single-threaded.
+
+
+Code should be extremely readable.
+
+
+JS Functions : 3 ways to declare functions.
+
+1. function add(x, incr) {return x+incr}
+
+2. const add = function(x, incr) {return x+incr}
+
+3. const add = (x, incr) => x+incr (Statement function or Lambda expression)
+
+
+z = f(x,5) should return 2(x+5)^2
+
+add = function(x,y) {return x+y}
+
+new_func = sum_twice(add)
+
+val = 4
+incr = 7
+result = new_func(val, incr)
