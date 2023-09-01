@@ -1,0 +1,39 @@
+To Do App - Components
+
+import React
+import ....
+
+const App = () => {
+    const [task, setTask] = useState('');
+    const [tasks, setTask] = useState([]);
+
+    return (/* UI */);
+};
+
+
+The App returns JSX.
+The component renders it's current state.
+
+
+State, accessing, updating.
+
+const [task, setTask] = useState('');
+const [task, setTasks] = useState([]);
+
+- These declare (define) that we are maintaining values regardless of how the UI changes or updates.
+- Does not mean "persistent across reboots" or "app exits".
+- We specify an initial value (notice, scalar then array).
+- We receive two symbols (functions) that we use to access the values. (Getters and Setters).
+
+
+The spread (...) operator.
+
+StyleSheet - A collection of CSS chunks.
+
+const styles = Stylesheet.create({
+
+});
+
+
+React handles the magic of reacting to the user, trigerring just the right thing.
+
